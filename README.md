@@ -1,2 +1,2 @@
-https://dmitryriabtsev.github.io/rsschool-cv/index
+https://dmitryriabtsev.github.io/rsschool-cv/
 
