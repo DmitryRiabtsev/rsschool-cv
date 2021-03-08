@@ -3,111 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Style CV</title>
 </head>
-<style>
-* {
-	margin: 0;
-	padding: 0;
-	}
-
-	.container {
-	max-width: 1024px;
-	margin: 0 auto;
-	}
-
-	.container .header {
-	width: 100%;
-	}
-
-	.container .header .header-content::before {
-	content: '';
-	position: absolute;
-	background: #10d4e2;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 250px;
-	z-index: 1;
-	}
-
-	.container .header .header-content .content-logo {
-	z-index: 3;
-	display: flex;
-	justify-content: space-between;
-	position: relative;
-	height: 250px;
-	align-items: center;
-	}
-
-	.container .header .header-content .content-logo .image {
-	width: 300px;
-	height: 200px;
-	border-radius: 50%;
-	}
-
-	.container .header .header-content .content-logo .title {
-	font-family: Georgia, serif;
-	font-size: 40px;
-	}
-
-	.container .main {
-	display: flex;
-	flex-direction: column;
-	}
-
-	.container .main .subtitle {
-	font-family: Georgia, serif;
-	font-size: 24px;
-	margin: 10px 0;
-	}
-
-	.container .main .content {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	font-family: Georgia, serif;
-	font-size: 18px;
-	}
-
-	.container .footer {
-	margin: 30px 0;
-	width: 100%;
-	}
-
-	.container .footer .mail::before {
-	z-index: 1;
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 270px;
-	background: #10d4e2;
-	}
-
-	.container .footer .mail .content {
-	z-index: 3;
-	display: flex;
-	flex-direction: column;
-	}
-
-	.container .footer .mail .content .subtitle {
-	font-family: Georgia, serif;
-	font-size: 24px;
-	margin: 10px 0;
-	z-index: 4;
-	}
-
-	.container .footer .mail .content .content {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	font-family: Georgia, serif;
-	font-size: 18px;
-	line-height: 1.5;
-	}
-</style>
 <body>
 	<div class="container">
 		<div class="header">
@@ -143,18 +41,16 @@
 			<p class="content">English A1 Elementary.</p>
 		</div>
 		<div class="footer">
-			<div class="mail">
-				<div class="content">
-					<h3 class="subtitle">My contacts</h3>
-					<p class="content">
-						<span>Country: Belarus</span>
-						<span>City: Minsk</span>
-						<span>Mobile phone: +375297558118</span>
-						<span>GitHub: <a href="https://github.com/DmitryRiabtsev">https://github.com/DmitryRiabtsev</a></span>
-						<span>Telegram: <a href="http://t.me/@Dimka755">@Dimka755</a></span>
-						<span>Email adress: dim4ik7558118@gmail.com </span>
-					</p>	
-				</div>
+			<div class="content">
+				<h3 class="subtitle">My contacts</h3>
+				<p class="content-text">
+					<span>Country: Belarus</span>
+					<span>City: Minsk</span>
+					<span>Mobile phone: +375297558118</span>
+					<span>GitHub: <a href="https://github.com/DmitryRiabtsev">https://github.com/DmitryRiabtsev</a></span>
+					<span>Telegram: <a href="http://t.me/@Dimka755">@Dimka755</a></span>
+					<span>Email adress: dim4ik7558118@gmail.com </span>
+				</p>	
 			</div>
 		</div>
 	</div>
